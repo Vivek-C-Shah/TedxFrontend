@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact-us-container {
+  color: white;
+}
+.ll {
+  font-size: 25px;
+}
+.contact-box-h2 {
+  color: #ff0000;
+  margin: 0.4rem;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.info-icon {
+  margin-bottom: 10px;
+  color: red;
+}
+
+address a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+address a:hover {
+  color: rgb(228, 69, 69);
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  .contact-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .form-col {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-box-h2 {
+    visibility: hidden;
+  }
+}
+
+/**************FORM****************/
+
+h1 {
+  color: #ff0000;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+  color: #5a5a5a;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#contact_form {
+  background-color: white;
+  color: black;
+  padding: 37.5px;
+  margin: 30px 0;
+  border: black 1px solid;
+  border-radius: 35px;
+}
+
+#contact_form > * {
+  background-color: white;
+}
+
+.form-col {
+  margin-top: 70px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png")
+    no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  background-color: red;
+  border: solid 2px #000000;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+#form_button:hover {
+  background-color: white;
+  color: red;
+}

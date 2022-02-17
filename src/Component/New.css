@@ -1,0 +1,16 @@
+.btnsd {
+  position: fixed;
+  width: 100%;
+  left: 87%;
+  bottom: 62px;
+  height: 14px;
+  font-size: 2.2rem;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+.btnsd :hover {
+  transition: all 0.5s;
+  color: red;
+}

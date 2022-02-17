@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Quciksand:wgh@400;600&display=swap");
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  transition: all 0.8s;
+}
+
+.intro {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: white;
+}
+
+.sec {
+  min-height: 1.3rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-title {
+  font-size: 3.8rem;
+  padding: 1.2rem;
+
+  margin-top: 1rem;
+  transition: all 0.8s;
+  color: red;
+}
+
+.faq {
+  max-width: 55rem;
+  margin-top: 2 rem;
+  padding-bottom: 1 rem;
+  border-bottom: 0.2rem solid white;
+  cursor: pointer;
+  transition: all 0.8s;
+  padding: 1rem;
+}
+
+.question:hover {
+  color: red;
+  font-size: 1.3rem;
+}
+
+.arrow :hover {
+  stroke: red;
+}
+
+.question {
+  display: flex;
+  line-height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+  transition: all 0.8s;
+  /* color: red; */
+}
+
+.question {
+  color: red;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+.faq-parasss {
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  transition: ease 0.8s;
+  max-width: 40rem;
+  text-align: justify;
+}
+.imp {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.linki {
+  color: rgb(250, 89, 89);
+  font-weight: bold;
+  text-decoration: none;
+}
+.linki :hover {
+  font-size: 1.4rem;
+}
+.faq.active .answer {
+  max-height: 55rem;
+  animation: fade 0.8s ease-in-out;
+}
+svg {
+  transition: all 0.8s;
+}
+.faq.active svg {
+  transform: rotate(180deg);
+  transition: all 0.8s;
+}
+
+.svg:horver {
+  color: red;
+  transition: all 0.8s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-1.2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}

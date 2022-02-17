@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.img {
+  width: 100%;
+  height: auto;
+  transition: all 1s;
+  border: red 2px;
+}
+.about-container {
+  margin-top: 3rem;
+  margin-right: 13rem;
+  margin-left: 13rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  transition: all 1s;
+  animation: fade 1.2s ease-in-out;
+}
+.about-para {
+  padding: 2.2rem;
+  text-align: justify;
+  font-size: 2 rem;
+  font-weight: 600;
+}
+.head {
+  color: red;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-content: center;
+  padding-top: 1.9rem;
+  text-align: center;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+.prom-link {
+  color: red;
+  font-weight: bold;
+}
+
+.prom-link:hover {
+  color: white;
+  transition: all 1s;
+  /* font-size: 1.1rem; */
+}
+
+/* .arr {
+    position: fixed;
+    width: 1.2rem;
+    height: auto;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    text-decoration: none;
+    color: whitesmoke;
+  } */
+
+@media screen and (max-width: 1080px) {
+  .about-container {
+    margin-top: 3rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+    transition: all 1s;
+    padding: 10px;
+    /* margin: auto; */
+  }
+  .head {
+    font-size: 3rem;
+  }
+  .img {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .prom {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    transition: all 1s;
+  }
+  .about-para {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 970px) {
+  .about-container {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    transition: all 1s;
+  }
+  .img {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .prom {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    /* margin-left: 2rem; */
+    margin-bottom: 4rem;
+    transition: all 1s;
+    padding: 16px;
+  }
+  .about-para {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .about-container {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    transition: all 1s;
+  }
+  .head {
+    font-size: 2.4rem;
+  }
+  .img {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .prom {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    transition: all 1s;
+  }
+  .about-para {
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-1.2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}

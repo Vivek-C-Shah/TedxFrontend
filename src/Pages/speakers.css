@@ -1,0 +1,13 @@
+.heading-dis {
+  font-size: 3.5rem;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin: 3rem;
+}
+
+@media screen and (max-width: 630px) {
+  .heading-dis {
+    font-size: 3rem;
+  }
+}

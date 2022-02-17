@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+body {
+  background-color: black;
+  animation: fade 0.8s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-1.2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+
+canvas {
+  index: 0;
+  display: block;
+  vertical-align: bottom;
+}
+
+.test { 
+  index: 50;
+  top: 100px;
+  position: absolute;
+}
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

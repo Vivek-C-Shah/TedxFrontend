@@ -1,0 +1,148 @@
+.timer-container {
+  color: #ffff;
+  width: 100%;
+  height: 100%;
+}
+
+.smalli {
+  color: red;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 1em; */
+  padding-top: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+.countdown-desc-box {
+  text-align: center;
+}
+
+.countdown-h2 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: white;
+}
+.countdown-desc {
+  padding-top: 0.8rem;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.countdown-timer {
+  /* border: 3px solid rgb(255, 6, 6); */
+  border-radius: 23px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 1em;
+  text-align: center;
+  width: 25em;
+}
+
+:root {
+  --primary: #ff1818;
+}
+
+.BOOKBUTTON {
+  float: inherit;
+  padding: 6px 10px;
+  padding: auto;
+  border-radius: 4px;
+  margin-top: 14px;
+  /* margin-right: 4px; */
+  /* margin-right: 2px; */
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.BOOKBUTTON:hover {
+  padding: 6px 10px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: red;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.timer-number {
+  font-size: 2em;
+  font-weight: 550;
+  color: #ff1818;
+}
+section p:last-child {
+  font-weight: 550;
+  font-size: 1rem;
+  /* text-align: center; */
+  /* color: rgb(255, 0, 0); */
+}
+.colon {
+  font-size: 2em;
+}
+.details {
+  margin-top: 10px;
+  color: white;
+}
+
+.detail {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.4rem;
+}
+
+@media screen and (max-width: 560px) {
+  .detail {
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+  }
+}
+
+/**********ExTRA SMALL SCREEN*********/
+
+@media screen and (min-width: 360px) and (max-width: 560px) {
+  .timer {
+    margin: 0;
+  }
+  .countdown-timer {
+    width: 19rem;
+  }
+  .countdown-h2 {
+    font-size: 2.7rem;
+  }
+  .countdown-desc {
+    font-size: 1.4rem;
+  }
+  section p:last-child {
+    font-weight: 550;
+    font-size: 0.9rem;
+    /* text-align: center; */
+    /* color: rgb(255, 0, 0); */
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-1.2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
