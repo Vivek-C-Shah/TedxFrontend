@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <>
-      {scrollToTop()}
+      {/* {scrollToTop()} */}
       <div id="particles-js">
         <Header />
         <Container className="contact-us-container">
