@@ -24,7 +24,10 @@ const Bg_Video = () => {
           zIndex: "-1",
         }}
       >
-        <source src={Video} type="video/mp4" />
+        <source
+          src="https://www.tedxpdeu.com/static/media/video.2392a6078a1c4c4da997.mp4"
+          type="video/mp4"
+        />
       </video>
     </>
   );
