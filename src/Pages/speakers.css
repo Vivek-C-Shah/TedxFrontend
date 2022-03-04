@@ -4,8 +4,117 @@
   font-weight: bold;
   text-align: center;
   margin: 3rem;
+  transition: all 0.8s;
 }
 
+h1 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3.5rem;
+  transition: all 0.8s;
+}
+
+.speaker-name {
+  color: red;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  transition: all 0.8s;
+}
+
+.speaker-title {
+  color: white;
+  font-size: 1.6rem;
+  font-style: bold;
+  margin-bottom: 1rem;
+  margin-top: 1.3rem;
+  transition: all 0.8s;
+}
+
+.box {
+  text-align: center;
+  transition: all 0.8s;
+}
+.speaker-img {
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  width: 50%;
+  transition: all 0.8s;
+}
+
+.socials a {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  transition: all 0.8s;
+  color: rgb(241, 86, 86);
+}
+
+.socials a i:hover {
+  color: white;
+  transition: all 0.8s;
+}
+
+.subcontainer {
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.8s;
+}
+
+.subcontainer:hover .speaker-name {
+  /* background-color: white; */
+  transition: all 0.8s;
+}
+
+.subcontainer:hover .speaker-title {
+  /* background-color: white; */
+  /* color: white; */
+  transition: all 0.8s;
+}
+
+.subcontainer:hover {
+  /* background-color: white; */
+  border-radius: 30px;
+  transition: all 0.8s;
+}
+
+.subcontainer:hover .speaker-img {
+  transform: scale(0.9);
+  transition: all 0.8s;
+}
+
+@media (max-width: 575px) {
+  .speaker-name {
+    color: red;
+    /* font-size: 20px;
+    margin-top: 10px; */
+    visibility: visible;
+  }
+  /*Extra Small Screen*/
+
+  .subcontainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /*Small Screen*/
+
+  .speaker-name {
+    color: red;
+    /* font-size: 20px;
+    margin-top: 10px; */
+  }
+
+  .subcontainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 630px) {
   .heading-dis {
     font-size: 3rem;

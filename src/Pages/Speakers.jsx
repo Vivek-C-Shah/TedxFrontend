@@ -3,7 +3,51 @@ import { FaArrowCircleUp } from "react-icons/fa";
 import Footer from "../Component/Footer";
 import Header from "../Component/Header";
 import ScrollButton from "../Component/ScrollButton";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "./speakers.css";
+
+const data = [
+  {
+    name: "Sandhya Koushika",
+    dict: "images/SpeakersImg/Sandhya.jpg",
+    title: "Neuroscientist",
+    socials: ["https://mobile.twitter.com/wormlockholmes", "#", "#"],
+  },
+  {
+    name: "Berty Ashley",
+    dict: "images/SpeakersImg/Berty.jpg",
+    title: "Molecular Biologist / Quiz Master",
+    socials: [
+      "https://mobile.twitter.com/bertyashley",
+      "#",
+      "https://www.facebook.com/berty.ashley",
+    ],
+  },
+  {
+    name: "Hunny Bhagchandani",
+    dict: "images/SpeakersImg/Honey.jpg",
+    title: "Founder - Torchit",
+    socials: [
+      "https://twitter.com/hunny_jb?lang=en",
+      "https://www.instagram.com/hunny_jb/?hl=en",
+      "https://www.facebook.com/hunny.bhagchandani",
+    ],
+  },
+  {
+    name: "Navneet Gill",
+    dict: "images/SpeakersImg/Navneet.jpg",
+    title: "Founder - Nini's Kitchen",
+    socials: ["#", "#", "#"],
+  },
+  {
+    name: "Viral Desai",
+    dict: "images/SpeakersImg/Viral.jpg",
+    title: "Environmentalist",
+    socials: ["#", "#", "#"],
+  },
+];
 
 const Speakers = () => {
   const scrollToTop = () => {
@@ -17,10 +61,31 @@ const Speakers = () => {
       {scrollToTop()}
       <div id="particles-js">
         <Header />
-        <h1 className="heading-dis">Comming Soon!!!</h1>
-        <h1 className="heading-dis">Stay Tuned!!!</h1>
-
-        <ScrollButton />
+        <h1>OUR SPEAKERS</h1>
+        <Container>
+          <Row className="gy-5">
+            {data.map((spk) => (
+              <Col lg={4} sm={5} className="box">
+                <div className="subcontainer">
+                  <img className="speaker-img" alt="dog" src={spk.dict} />
+                  <h2 className="speaker-name">{spk.name}</h2>
+                  <h3 className="speaker-title">{spk.title}</h3>
+                  <div className="socials">
+                    <a href={spk.socials[0]} target="blank">
+                      <i class="fab fa-twitter fa-md social-icon"></i>
+                    </a>
+                    <a href={spk.socials[1]} target="blank">
+                      <i class="fab fa-instagram fa-md social-icon"></i>
+                    </a>
+                    <a href={spk.socials[2]} target="blank">
+                      <i class="fab fa-facebook fa-md social-icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
         <Footer />
       </div>
     </>

@@ -15,7 +15,6 @@ import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 
 const Contact = () => {
-  const [sent, setSent] = useState("");
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -23,8 +22,7 @@ const Contact = () => {
     });
   };
 
-  const url = "https://tedxpdeus.herokuapp.com";
-
+  const url = "https://tedpdeu.herokuapp.com";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [no, setNo] = useState("");
@@ -38,20 +36,16 @@ const Contact = () => {
       ContactNo: no,
       Query: mess,
     });
-    console.log(i);
+    // console.log(i);
     if (i.status === 201) {
       console.log("Contact Sent");
-      setEmail("");
-      setName("");
-      setNo("");
-      setMess("");
-      setSent("Your Message has been sent , We will contact you soon , Thankyou !!");
+      window.location.reload();
     }
   };
 
   return (
     <>
-      {/* {scrollToTop()} */}
+      {scrollToTop()}
       <div id="particles-js">
         <Header />
         <Container className="contact-us-container">
@@ -112,7 +106,6 @@ const Contact = () => {
                 <div className="name">
                   <label for="name"></label>
                   <input
-                    value={name}
                     type="text"
                     placeholder="Name"
                     name="name"
@@ -124,7 +117,6 @@ const Contact = () => {
                 <div className="email">
                   <label for="email"></label>
                   <input
-                    value={email}
                     type="email"
                     placeholder="Email"
                     name="email"
@@ -137,7 +129,6 @@ const Contact = () => {
                   <label for="name"></label>
                   <input
                     type="text"
-                    value={no}
                     placeholder="Contact Number"
                     name="telephone"
                     id="telephone_input"
@@ -149,7 +140,6 @@ const Contact = () => {
                   <label for="message"></label>
                   <textarea
                     name="message"
-                    value={mess}
                     placeholder="I'd like to know about"
                     id="message_input"
                     cols="30"
@@ -158,9 +148,6 @@ const Contact = () => {
                     onChange={(e) => setMess(e.target.value)}
                   ></textarea>
                 </div>
-                <p style={{
-                  color:"green"
-                }}>{sent}</p>
                 <div className="submit">
                   <input type="submit" value="Send Message" id="form_button" />
                 </div>

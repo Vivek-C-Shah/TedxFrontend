@@ -45,9 +45,14 @@ function Header() {
 
         <li className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to="/" className="nav-links-mobile" onClick={closeMobileMenu}>
+            <a
+              href="https://forms.gle/DBaKhzTS3NPXPyrH7"
+              target="_blank"
+              className="nav-links-mobile"
+              onClick={closeMobileMenu}
+            >
               Book Now
-            </Link>
+            </a>
           </li>
           <Button className="butt" />
           <li className="nav-item">

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export function Button() {
   return (
-    <Link to="/">
+    <a href="https://forms.gle/DBaKhzTS3NPXPyrH7" target="_blank">
       <button className="btn">Book Now</button>
-    </Link>
+    </a>
   );
 }

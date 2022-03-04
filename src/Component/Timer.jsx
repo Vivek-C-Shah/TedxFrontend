@@ -116,9 +116,9 @@ const Timer = () => {
             PDEU, Gandhinagar
           </span>
         </div>
-        <Link to="/">
+        <a href="https://forms.gle/DBaKhzTS3NPXPyrH7" target="_blank">
           <button className="BOOKBUTTON">Book Now</button>
-        </Link>
+        </a>
       </section>
     </section>
   );
