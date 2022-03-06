@@ -1,11 +1,16 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   animation: fade 0.8s ease-in-out;
+} */
+
+.backi {
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 body {
   font-size: 100%;
 }
-

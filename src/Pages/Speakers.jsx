@@ -86,6 +86,7 @@ const Speakers = () => {
             ))}
           </Row>
         </Container>
+        <ScrollButton />
         <Footer />
       </div>
     </>
