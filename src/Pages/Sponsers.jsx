@@ -17,7 +17,7 @@ const Sponsers = () => {
       {scrollToTop()}
       <div id="particles-js">
         <Header />
-        <h1 className="heading-dis">Comming Soon!!!</h1>
+        <h1 className="heading-dis">Coming Soon!!!</h1>
         <h1 className="heading-dis">Stay Tuned!!!</h1>
         <ScrollButton />
         <Footer />
