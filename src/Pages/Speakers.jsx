@@ -16,10 +16,14 @@ const data = [
     socials: ["#", "#", "#"],
   },
   {
-    name: "Sandhya Koushika",
-    dict: "images/SpeakersImg/Sandhya.jpg",
-    title: "Neuroscientist",
-    socials: ["https://mobile.twitter.com/wormlockholmes", "#", "#"],
+    name: "Ash King",
+    dict: "images/SpeakersImg/Ash.jpg",
+    title: "Singer and Song Writer",
+    socials: [
+      "https://twitter.com/iamashking?lang=en",
+      "https://www.instagram.com/ashkinglive/?hl=en",
+      "#",
+    ],
   },
   {
     name: "Berty Ashley",
@@ -30,6 +34,12 @@ const data = [
       "#",
       "https://www.facebook.com/berty.ashley",
     ],
+  },
+  {
+    name: "Sandhya Koushika",
+    dict: "images/SpeakersImg/Sandhya.jpg",
+    title: "Neuroscientist",
+    socials: ["https://mobile.twitter.com/wormlockholmes", "#", "#"],
   },
   {
     name: "Hunny Bhagchandani",
