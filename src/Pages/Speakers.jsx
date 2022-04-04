@@ -10,6 +10,12 @@ import "./speakers.css";
 
 const data = [
   {
+    name: "Sanam Kapoor",
+    dict: "images/SpeakersImg/Sanam.jpg",
+    title: "Founder - La Pinoz Pizza",
+    socials: ["#", "#", "#"],
+  },
+  {
     name: "Sandhya Koushika",
     dict: "images/SpeakersImg/Sandhya.jpg",
     title: "Neuroscientist",
@@ -46,6 +52,22 @@ const data = [
     dict: "images/SpeakersImg/Viral.jpg",
     title: "Environmentalist",
     socials: ["#", "#", "#"],
+  },
+  {
+    name: "Edward Sonnenblick",
+    dict: "images/SpeakersImg/Edward.jpg",
+    title: "Actor, Artist & Comedian",
+    socials: ["#", "https://www.instagram.com/edwardsonnenblick/?hl=en", "#"],
+  },
+  {
+    name: "Dr. Pooja Thomas",
+    dict: "images/SpeakersImg/Pooja.png",
+    title: "Professor - MICA",
+    socials: [
+      "https://www.mica.ac.in/pooja-thomas",
+      "https://www.mica.ac.in/pooja-thomas",
+      "https://www.mica.ac.in/pooja-thomas",
+    ],
   },
 ];
 
