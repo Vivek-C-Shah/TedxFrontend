@@ -106,7 +106,7 @@ const Timer = () => {
               style={{ color: "red" }}
               icon={faUser}
             ></FontAwesomeIcon>{" "}
-            10 Speakers
+            9 Speakers
           </span>
           <span className="detail">
             <FontAwesomeIcon
@@ -118,6 +118,12 @@ const Timer = () => {
         </div>
         <a href="https://forms.gle/DBaKhzTS3NPXPyrH7" target="_blank">
           <button className="BOOKBUTTON">Book Now</button>
+        </a>
+        <a
+          href="https://allevents.in/manage/tickets/book.php?event_id=80001301921065"
+          target="_blank"
+        >
+          <button className="BOOKBUTTON">Book on AllEvents</button>
         </a>
       </section>
     </section>

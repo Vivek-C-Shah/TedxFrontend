@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import ScrollButton from "../Component/ScrollButton";
+import ScrollButtoni from "../Component/ScrollButtoni";
 import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 import Timer from "../Component/Timer";
@@ -19,7 +20,8 @@ const Home = () => {
         <div className="backi">
           <Header />
           <Timer />
-          <ScrollButton />
+          {/* <ScrollButton /> */}
+          {/* <ScrollButtoni /> */}
           <Footer />
         </div>
       </div>
