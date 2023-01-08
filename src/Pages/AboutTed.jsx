@@ -3,7 +3,7 @@ import ScrollButton from "../Component/ScrollButton";
 import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 
-const About_ted = () => {
+const AboutTed = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -104,4 +104,4 @@ const About_ted = () => {
   );
 };
 
-export default About_ted;
+export default AboutTed;

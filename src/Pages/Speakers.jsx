@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./speakers.css";
+import YearTab from "../Component/YearTab/YearTab";
 
 const data = [
   {
@@ -93,6 +94,7 @@ const Speakers = () => {
       {scrollToTop()}
       <div id="particles-js">
         <Header />
+        {/* <YearTab /> */}
         <h1>OUR SPEAKERS</h1>
         <Container>
           <Row className="gy-5">

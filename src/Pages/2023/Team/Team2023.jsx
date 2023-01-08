@@ -1,13 +1,14 @@
 import React from "react";
-import "./Teams.css";
-import { team } from "../team";
-import ScrollButton from "../Component/ScrollButton";
+import "./Team.css";
+import { team } from "../../../team2023";
+import ScrollButton from "../../../Component/ScrollButton";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import Header from "../Component/Header";
-import Footer from "../Component/Footer";
-import AboutYearTab from "../Component/AboutYearTab/AboutYearTab";
+import Header from "../../../Component/Header";
+import Footer from "../../../Component/Footer";
+import YearTab from "../../../Component/YearTab/YearTab";
+import AboutYearTab from "../../../Component/AboutYearTab/AboutYearTab";
 
 const RenderMembers = (props) => {
   return props.dept.members.map((member) => (
@@ -44,7 +45,7 @@ const RenderDepartment = () => {
   ));
 };
 
-const Teams = () => {
+const Team2023 = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -68,4 +69,4 @@ const Teams = () => {
   );
 };
 
-export default Teams;
+export default Team2023;

@@ -1,11 +1,10 @@
 import React from "react";
-import "./Home.css";
-import Header from "../Component/Header";
-import Footer from "../Component/Footer";
-import Timer from "../Component/Timer";
-import YearTab from "../Component/YearTab/YearTab";
+import Footer from "../../Component/Footer";
+import Header from "../../Component/Header";
+import YearTab from "../../Component/YearTab/YearTab";
+import Timer from "./Timer/Timer";
 
-const Home = () => {
+const Home2022 = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -27,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home2022;

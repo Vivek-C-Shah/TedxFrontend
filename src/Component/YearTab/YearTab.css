@@ -1,0 +1,30 @@
+.yearTab__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px 0px;
+  font-style: normal;
+}
+
+.yearTab__links {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.yearTab__links:hover {
+  color: red;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.activeClassName {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+.activeClassName:hover {
+  color: red;
+}
