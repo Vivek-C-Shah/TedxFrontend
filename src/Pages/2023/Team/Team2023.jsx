@@ -7,12 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Header from "../../../Component/Header";
 import Footer from "../../../Component/Footer";
-import YearTab from "../../../Component/YearTab/YearTab";
 import AboutYearTab from "../../../Component/AboutYearTab/AboutYearTab";
 
 const RenderMembers = (props) => {
-  return props.dept.members.map((member) => (
-    <Col lg={6} className="profile">
+  return props.dept.members.map((member, i) => (
+    <Col key={i} lg={6} className="profile">
       <img src={member.image} className="profile-img" />
       <h3 className="user-name">
         <span>{member.name}</span>
@@ -32,8 +31,8 @@ const RenderMembers = (props) => {
 };
 
 const RenderDepartment = () => {
-  return team.map((dept) => (
-    <>
+  return team.map((dept, i) => (
+    <div key={i}>
       <hr style={{ color: "red", height: "2px" }} />
       <Container key={dept.id} className="pro">
         <h2 className="title">{dept.department}</h2>
@@ -41,7 +40,7 @@ const RenderDepartment = () => {
           <RenderMembers dept={dept} />
         </Row>
       </Container>
-    </>
+    </div>
   ));
 };
 
@@ -57,7 +56,7 @@ const Team2023 = () => {
       {scrollToTop()}
       <div id="particles-js">
         <Header />
-        {/* <AboutYearTab /> */}
+        <AboutYearTab />
         <div>
           <h1 className="heading">Meet Our Team</h1>
           <RenderDepartment />

@@ -2,12 +2,12 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../YearTab/YearTab.css";
 
-const AboutYearTab = () => {
+const SpeakersTab = () => {
   const activeClassName = "activeClassName";
   return (
     <section className="yearTab__container">
       <NavLink
-        to={"/teams-2022"}
+        to={"/speakers-2022"}
         className={({ isActive }) =>
           isActive ? activeClassName : "yearTab__links"
         }
@@ -15,7 +15,7 @@ const AboutYearTab = () => {
         2022
       </NavLink>
       <NavLink
-        to={"/teams"}
+        to={"/speakers"}
         className={({ isActive }) =>
           isActive ? activeClassName : "yearTab__links"
         }
@@ -26,4 +26,4 @@ const AboutYearTab = () => {
   );
 };
 
-export default AboutYearTab;
+export default SpeakersTab;

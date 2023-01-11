@@ -43,7 +43,7 @@ function Header() {
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
 
-        <li className={click ? "nav-menu active" : "nav-menu"}>
+        <div className={click ? "nav-menu active" : "nav-menu"}>
           <li>
             <a
               href="https://forms.gle/DBaKhzTS3NPXPyrH7"
@@ -109,7 +109,7 @@ function Header() {
               Contact Us
             </Link>
           </li>
-        </li>
+        </div>
       </nav>
     </>
   );

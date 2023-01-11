@@ -13,6 +13,9 @@ import Speakers from "./Pages/Speakers";
 import Home2022 from "./Pages/2023/Home2022";
 import Team2023 from "./Pages/2023/Team/Team2023";
 
+import Teams from "./Pages/Teams";
+import Speakers2023 from "./Pages/2023/Speakers/Speakers2023";
+
 function App() {
   return (
     <>
@@ -38,8 +41,13 @@ function App() {
             />
             <Route
               exact
-              path="/speakers"
+              path="/speakers-2022"
               element={<Particle comp={<Speakers />} />}
+            />
+            <Route
+              exact
+              path="/speakers"
+              element={<Particle comp={<Speakers2023 />} />}
             />
             <Route
               exact
@@ -50,6 +58,11 @@ function App() {
               exact
               path="/teams"
               element={<Particle comp={<Team2023 />} />}
+            />
+            <Route
+              exact
+              path="/teams-2022"
+              element={<Particle comp={<Teams />} />}
             />
             <Route exact path="/faq" element={<Particle comp={<FAQ />} />} />
           </Routes>

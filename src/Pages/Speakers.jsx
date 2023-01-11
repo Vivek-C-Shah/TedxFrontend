@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
+import React from "react";
 import Footer from "../Component/Footer";
 import Header from "../Component/Header";
 import ScrollButton from "../Component/ScrollButton";
@@ -7,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./speakers.css";
-import YearTab from "../Component/YearTab/YearTab";
+import SpeakersTab from "../Component/SpeakersYearTab/SpeakersTab";
 
 const data = [
   {
@@ -95,6 +94,7 @@ const Speakers = () => {
       <div id="particles-js">
         <Header />
         {/* <YearTab /> */}
+        <SpeakersTab />
         <h1>OUR SPEAKERS</h1>
         <Container>
           <Row className="gy-5">
