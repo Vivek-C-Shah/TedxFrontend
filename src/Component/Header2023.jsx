@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import { Button } from "./Button";
 import Dropdown from "./Dropdown";
 
-function Header() {
+function Header2023() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -43,6 +44,17 @@ function Header() {
         </div>
 
         <div className={click ? "nav-menu active" : "nav-menu"}>
+          <li>
+            <a
+              href="https://forms.gle/DBaKhzTS3NPXPyrH7"
+              target="_blank"
+              className="nav-links-mobile"
+              onClick={closeMobileMenu}
+            >
+              Book Now
+            </a>
+          </li>
+          <Button className="butt" />
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Home
@@ -103,4 +115,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header2023;

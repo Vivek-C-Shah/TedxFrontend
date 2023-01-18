@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../Component/Footer";
-import Header from "../../Component/Header";
+import Header2023 from "../../Component/Header2023";
 import YearTab from "../../Component/YearTab/YearTab";
 import Timer from "./Timer/Timer";
 
@@ -16,7 +16,7 @@ const Home2022 = () => {
       {scrollToTop()}
       <div id="particles-js">
         <div className="backi">
-          <Header />
+          <Header2023 />
           <YearTab />
           <Timer />
           <Footer />

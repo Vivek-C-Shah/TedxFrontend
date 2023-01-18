@@ -52,10 +52,10 @@
 
 .BOOKBUTTON {
   float: inherit;
-  padding: 6px 10px;
+  padding: 8px 12px;
   padding: auto;
   border-radius: 4px;
-  margin-top: 14px;
+  margin-top: 22px;
   /* margin-right: 4px; */
   /* margin-right: 2px; */
   outline: none;
@@ -66,6 +66,7 @@
   background-color: var(--primary);
   border: 2px solid var(--primary);
   transition: all 0.3s ease-out;
+  font-weight: 700;
 }
 
 .BOOKBUTTON:hover {

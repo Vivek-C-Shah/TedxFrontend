@@ -14,7 +14,11 @@ const Footer = () => {
       <footer>
         <hr></hr>
         <Link to="/">
-          <img className="footer-logo" src="images/logo.png" />
+          <img
+            className="footer-logo"
+            alt="footer logo"
+            src="images/logo.png"
+          />
         </Link>
         <div className="social-media">
           <a href="https://www.instagram.com/tedxpdeu/" target="blank">
@@ -38,7 +42,7 @@ const Footer = () => {
             <div>SPEAKERS</div>
           </Link>
           <Link to="/sponsers">
-            <div>SPONSERS</div>
+            <div>SPONSORS</div>
           </Link>
           <Link to="/faq">
             <div>FAQ's</div>

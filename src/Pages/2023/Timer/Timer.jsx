@@ -6,7 +6,6 @@ import {
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Timer.css";
-import { Link } from "react-router-dom";
 
 const Timer = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -19,9 +18,9 @@ const Timer = () => {
   };
   window.addEventListener("scroll", checkScrollTop);
 
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  // const scrollTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
 
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -99,14 +98,14 @@ const Timer = () => {
               style={{ color: "red" }}
               icon={faCalendar}
             ></FontAwesomeIcon>{" "}
-            April 10th
+            TBA
           </span>
           <span className="detail">
             <FontAwesomeIcon
               style={{ color: "red" }}
               icon={faUser}
             ></FontAwesomeIcon>{" "}
-            9 Speakers
+            10 Speakers
           </span>
           <span className="detail">
             <FontAwesomeIcon
@@ -116,14 +115,12 @@ const Timer = () => {
             PDEU, Gandhinagar
           </span>
         </div>
-        <a href="https://forms.gle/DBaKhzTS3NPXPyrH7" target="_blank">
-          <button className="BOOKBUTTON">Book Now</button>
-        </a>
         <a
-          href="https://allevents.in/manage/tickets/book.php?event_id=80001301921065"
+          rel="noopener noreferrer"
+          href="https://forms.gle/DBaKhzTS3NPXPyrH7"
           target="_blank"
         >
-          <button className="BOOKBUTTON">Book on AllEvents</button>
+          <button className="BOOKBUTTON">Book Now</button>
         </a>
       </section>
     </section>

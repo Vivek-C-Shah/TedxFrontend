@@ -90,11 +90,11 @@ const Contact = () => {
                       icon={faPhone}
                     ></FontAwesomeIcon>
                     <address>
-                      <span className="ll">Priyansh Tratiya</span> :{" "}
-                      <a href="tel:+919408990628">9408990628</a>
+                      <span className="ll">Anish Sil</span> :{" "}
+                      <a href="tel:+919408990628">7048729570</a>
                       <br></br>
-                      <span className="ll">Sachin Gupta</span> :{" "}
-                      <a href="tel:+917016077032">7016077032</a>{" "}
+                      <span className="ll">Vraj Shah</span> :{" "}
+                      <a href="tel:+917016077032">9662261113</a>{" "}
                     </address>
                   </div>
                 </Col>
@@ -104,7 +104,7 @@ const Contact = () => {
               <h1>CONTACT US</h1>
               <form onSubmit={handleSubmit} id="contact_form">
                 <div className="name">
-                  <label for="name"></label>
+                  <label htmlFor="name"></label>
                   <input
                     type="text"
                     placeholder="Name"
@@ -115,7 +115,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="email">
-                  <label for="email"></label>
+                  <label htmlFor="email"></label>
                   <input
                     type="email"
                     placeholder="Email"
