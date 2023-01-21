@@ -146,3 +146,17 @@ section p:last-child {
     transform: translateY(0rem);
   }
 }
+
+.carousel-container {
+  /* max-width: ; */
+  padding: 10px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+  .carousel-container {
+    padding: 10px;
+    width: 100%;
+  }
+}

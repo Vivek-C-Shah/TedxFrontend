@@ -6,6 +6,8 @@ import {
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Timer.css";
+import dog from "../dog.jpg";
+import HomeCarousel from "./HomeCarousel";
 
 const Timer = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -69,29 +71,11 @@ const Timer = () => {
             CHARTING THE UNCHAR<span className="smalli">TED</span>
           </h2>
         </div>
-        <p className="countdown-desc">Let the countdown begin!!</p>
 
-        <div className="countdown-timer">
-          <section>
-            <p className="timer-number">{timerDays}</p>
-            <p>Days</p>
-          </section>
-          <span className="colon">:</span>
-          <section>
-            <p className="timer-number">{timerHours}</p>
-            <p>Hours</p>
-          </section>
-          <span className="colon">:</span>
-          <section>
-            <p className="timer-number">{timerMinutes}</p>
-            <p>Minutes</p>
-          </section>
-          <span className="colon">:</span>
-          <section>
-            <p className="timer-number">{timerSeconds}</p>
-            <p>Seconds</p>
-          </section>
-        </div>
+        <section className="carousel-container">
+          <HomeCarousel />
+        </section>
+
         <div className="details">
           <span className="detail">
             <FontAwesomeIcon
