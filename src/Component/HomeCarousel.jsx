@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { Carousel, CarouselItem } from "reactstrap";
+import {
+  Carousel,
+  CarouselControl,
+  CarouselIndicators,
+  CarouselItem,
+} from "reactstrap";
 
 const items = [
   {
@@ -37,6 +42,10 @@ function HomeCarousel(args) {
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
+  const goToIndex = (newIndex) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  };
 
   const slides = items.map((item) => {
     return (
@@ -54,13 +63,27 @@ function HomeCarousel(args) {
 
   return (
     <Carousel
-      interval={3000}
       activeIndex={activeIndex}
       next={next}
       previous={previous}
       {...args}
     >
+      <CarouselIndicators
+        items={items}
+        activeIndex={activeIndex}
+        onClickHandler={goToIndex}
+      />
       {slides}
+      <CarouselControl
+        direction="prev"
+        directionText="Previous"
+        onClickHandler={previous}
+      />
+      <CarouselControl
+        direction="next"
+        directionText="Next"
+        onClickHandler={next}
+      />
     </Carousel>
   );
 }
