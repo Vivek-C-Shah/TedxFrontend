@@ -4,13 +4,16 @@ export const team = [
     department: "Organizing Leads",
     members: [
       {
-        name: "Priyansh Tratiya",
+        name: "Anish Sil",
         image: "images/MembersImg/Priyansh Tratiya.jpg",
         role: "Organiser",
-        socials: [
-          "https://www.instagram.com/priyansh.tratiya/",
-          "https://twitter.com/TratiyaPriyansh",
-        ],
+        socials: ["https://www.instagram.com/aniiiiisssh/"],
+      },
+      {
+        name: "Vraj Shah",
+        image: "images/MembersImg/Priyansh Tratiya.jpg",
+        role: "Co-Organiser",
+        socials: ["https://www.instagram.com/vraj.shah.2121/"],
       },
     ],
   },
@@ -19,30 +22,24 @@ export const team = [
     department: "Curation Team",
     members: [
       {
-        name: "Chirantan Shah",
-        image: "images/MembersImg/Chirantan.jpg",
-        role: "Curator In-chief",
-        socials: [
-          "https://www.instagram.com/_chir.antan_",
-          "https://twitter.com/Just_me4345",
-        ],
+        name: "Nikki Mehta",
+        image: "images/Committee Reveal Photos/Nikki Mehta.jpg",
+        role: "Curator",
+        socials: ["https://www.instagram.com/nikki.mehta/"],
       },
 
       {
-        name: "Anushka Jog",
-        image: "images/MembersImg/Anushka Jog.jpg",
+        name: "Parag Shevramani",
+        image: "images/Committee Reveal Photos/Parag Shewaramani.jpg",
         role: "Curator",
-        socials: [
-          "https://www.instagram.com/anushkajog/",
-          "https://twitter.com/AnushkaJog",
-        ],
+        socials: ["https://www.instagram.com/parag_s._/"],
       },
 
       {
-        name: "Maanya Shah",
-        image: "images/MembersImg/Maanya Shah.jpg",
+        name: "Vashishth Doshi",
+        image: "images/Committee Reveal Photos/Vashishth Doshi.jpg",
         role: "Curator",
-        socials: ["#", "#"],
+        socials: ["https://www.instagram.com/vashishth.doshi/"],
       },
     ],
   },
@@ -51,30 +48,24 @@ export const team = [
     department: "Design and Video Production Team",
     members: [
       {
-        name: "Prisha Rohan",
-        image: "images/MembersImg/PrishaRohan.jpg",
-        role: "Lead Designer",
-        socials: [
-          "https://www.instagram.com/prisharohan/",
-          "https://twitter.com/prisha_rohan",
-        ],
+        name: "Manav Ukani",
+        image: "images/Committee Reveal Photos/manav ukani.jpg",
+        role: "Graphics Designer",
+        socials: ["https://www.instagram.com/manavukani/"],
       },
 
       {
-        name: "Vidhi Patel",
-        image: "images/MembersImg/Vidhi Patel.jpg",
-        role: "Lead Designer",
-        socials: ["https://www.instagram.com/vidhi._.127/", "#"],
+        name: "Akshima Sharma",
+        image: "images/Committee Reveal Photos/Akshima Sharma.webp",
+        role: "Fine Arts",
+        socials: ["https://www.instagram.com/akshiimaa/", "#"],
       },
 
       {
-        name: "Aditya Khistawal",
-        image: "images/MembersImg/Aditya Kishtawal.jpg",
-        role: "Video Production",
-        socials: [
-          "https://www.instagram.com/adidoz.k/",
-          "https://twitter.com/SastaNobita",
-        ],
+        name: "Mansi Patel",
+        image: "images/Committee Reveal Photos/MansiPatel.jpg",
+        role: "Fine Arts",
+        socials: ["https://www.instagram.com/mansipls/"],
       },
     ],
   },
@@ -83,40 +74,37 @@ export const team = [
     department: "Finance & Logistics Teams",
     members: [
       {
-        name: "Sanskar Shah",
-        image: "images/MembersImg/Sanskar Shah.jpg",
+        name: "Tanmay Desai",
+        image: "images/Committee Reveal Photos/Tanmay Desai.jpg",
         role: "Budget Manager",
-        socials: [
-          "https://www.instagram.com/sansy.14/",
-          "https://twitter.com/SanskarShah16",
-        ],
+        socials: ["https://www.instagram.com/desaitanmay/"],
       },
 
       {
-        name: "Harshita Kapri",
-        image: "images/MembersImg/Harshita Kapri.jpg",
+        name: "Aum Davda",
+        image: "images/Committee Reveal Photos/Aum Davda.jpg",
         role: "Sponsership Manager",
-        socials: ["https://www.instagram.com/kapri_harshita/", "#"],
+        socials: ["https://www.instagram.com/daddys_little_dissapointement_/"],
       },
 
       {
-        name: "Yogi Makadiya",
-        image: "images/MembersImg/YogiMakadiya.jpeg",
+        name: "Devanshu Mehta",
+        image: "images/Committee Reveal Photos/Devanshu Mehta.jpg",
         role: "Sponsership Manager",
-        socials: [
-          "https://www.instagram.com/yogi_my03/",
-          "https://twitter.com/YogiMakadiya",
-        ],
+        socials: ["#"],
       },
 
       {
-        name: "Tirth Bhingradiya",
-        image: "images/MembersImg/Bhingradiya Tirth .jpg",
+        name: "Manav Bakori",
+        image: "images/Committee Reveal Photos/manavbakori.jpg",
         role: "Logistics Manager",
-        socials: [
-          "https://www.instagram.com/tirth_bhingradiya_/",
-          "https://twitter.com/Tirth_6100",
-        ],
+        socials: ["https://www.instagram.com/manav.bakori/"],
+      },
+      {
+        name: "Megh Soni",
+        image: "images/Committee Reveal Photos/Megh soni.jpg",
+        role: "Logistics Manager",
+        socials: ["https://www.instagram.com/sonimegh0918/"],
       },
     ],
   },
@@ -125,31 +113,37 @@ export const team = [
     department: "Event Management & Hospitality Team",
     members: [
       {
-        name: "Hitanshu Raulji",
-        image: "images/MembersImg/Hitanshu Raulji.jpg",
+        name: "Kaushiki Vaidya",
+        image: "images/Committee Reveal Photos/KAUSHIKI VAIDYA.jpeg",
         role: "Event Manager",
-        socials: ["https://www.instagram.com/hitanshuraulji/", "#"],
+        socials: ["https://www.instagram.com/Kaushikivaidya/"],
       },
 
       {
-        name: "Krishi Godhani",
-        image: "images/MembersImg/KrishiGodhani.jpeg",
+        name: "Ayush Bhatt",
+        image: "images/Committee Reveal Photos/Ayush Bhatt.jpg",
         role: "Event Manager",
-        socials: ["https://www.instagram.com/krishi_2219/", "#"],
+        socials: ["https://www.instagram.com/_bhatt_ayush_/"],
       },
 
       {
-        name: "Madhuja Joshi",
-        image: "images/MembersImg/Madhuja Joshi_.jpg",
+        name: "Shivali Patel",
+        image: "images/Committee Reveal Photos/Shivali Patel.JPG",
         role: "Event Manager",
-        socials: ["https://www.instagram.com/madhujaaa/", "#"],
+        socials: ["https://www.instagram.com/shivaliiii_20/"],
       },
 
       {
-        name: "Ana Dhamani",
-        image: "images/MembersImg/Ana.jpeg",
+        name: "Jayna Kotecha",
+        image: "images/Committee Reveal Photos/Jayna Kotecha.HEIC",
         role: "Hospitality Manager",
-        socials: ["https://www.instagram.com/anadhamani/", "#"],
+        socials: ["https://www.instagram.com/jennyyy.k_7/"],
+      },
+      {
+        name: "Ritwik Garg",
+        image: "images/Committee Reveal Photos/Ritwik Garg.JPG",
+        role: "Hospitality Manager",
+        socials: ["https://www.instagram.com/heyitsritwik/", "#"],
       },
     ],
   },
@@ -158,33 +152,30 @@ export const team = [
     department: "Publicity & Website Team",
     members: [
       {
-        name: "Dwija Modi",
-        image: "images/MembersImg/Dwija.jpg",
+        name: "Nikhil Agarwal",
+        image: "images/Committee Reveal Photos/Nikhil Agarwal_.jpg",
         role: "Publicity Manager",
-        socials: [
-          "https://www.instagram.com/dwija_13/",
-          "https://twitter.com/Dwija_13",
-        ],
+        socials: ["https://www.instagram.com/nikhilag_.02/"],
       },
 
       {
-        name: "Atman Joshi",
-        image: "images/MembersImg/Atman 1.jpg",
+        name: "Rhea Patel",
+        image: "images/Committee Reveal Photos/Rhea Patel_.jpg",
         role: "Publicity Manager",
-        socials: [
-          "https://www.instagram.com/aatmanjoshi_29/",
-          "https://twitter.com/Atmanisreading",
-        ],
+        socials: ["https://www.instagram.com/rhea.patel910/"],
+      },
+      {
+        name: "Ananya Chaturvedi",
+        image: "images/Committee Reveal Photos/Ananya.jpg",
+        role: "Publicity Manager",
+        socials: ["https://www.instagram.com/a.nayaa/"],
       },
 
       {
-        name: "Priyank Rana",
-        image: "images/MembersImg/PriyankRana.jpg",
+        name: "Devrajsinh Jhala",
+        image: "images/Committee Reveal Photos/Devraj Jhala.jpg",
         role: "Website Manager",
-        socials: [
-          "https://www.instagram.com/em_priyank/",
-          "https://twitter.com/em_Priyannk",
-        ],
+        socials: ["#"],
       },
     ],
   },

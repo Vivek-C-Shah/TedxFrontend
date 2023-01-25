@@ -36,12 +36,14 @@
   width: 230px;
   border-radius: 50%;
   transition: 400ms;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 .user-name span {
   color: red;
   margin-top: 30px;
-  font-size: 35px;
+  font-size: 30px;
 }
 .user-name {
   color: whitesmoke;

@@ -1,91 +1,32 @@
-import React, { useState } from "react";
-import {
-  Carousel,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselItem,
-} from "reactstrap";
+import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const items = [
-  {
-    src: "https://picsum.photos/id/123/1200/400",
-    altText: "Slide 1",
-    caption: "Slide 1",
-    key: 1,
-  },
-  {
-    src: "https://picsum.photos/id/456/1200/400",
-    altText: "Slide 2",
-    caption: "Slide 2",
-    key: 2,
-  },
-  {
-    src: "https://picsum.photos/id/678/1200/400",
-    altText: "Slide 3",
-    caption: "Slide 3",
-    key: 3,
-  },
-];
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
 
-function HomeCarousel(args) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
+import "./HomeCarousel.css";
+import Carousel1 from "../Carousel1.jpg";
+import Carousel2 from "../Carousel2.jpg";
 
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
+// import required modules
+import { Navigation } from "swiper";
 
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        className="carousel-container"
-        slide
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <img src={item.src} alt={item.altText} />
-      </CarouselItem>
-    );
-  });
-
+export default function HomeCarousel() {
   return (
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-      {...args}
-    >
-      <CarouselIndicators
-        items={items}
-        activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-      <CarouselControl
-        direction="prev"
-        directionText="Previous"
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        direction="next"
-        directionText="Next"
-        onClickHandler={next}
-      />
-    </Carousel>
+    <>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide>
+          <img src={Carousel1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Carousel2} alt="" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <img src={dog} alt="" />
+        </SwiperSlide> */}
+      </Swiper>
+    </>
   );
 }
-
-export default HomeCarousel;

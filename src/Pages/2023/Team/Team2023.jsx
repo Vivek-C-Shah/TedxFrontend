@@ -4,7 +4,7 @@ import { team } from "../../../team2023";
 import ScrollButton from "../../../Component/ScrollButton";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Header from "../../../Component/Header";
 import Footer from "../../../Component/Footer";
 import AboutYearTab from "../../../Component/AboutYearTab/AboutYearTab";
@@ -12,7 +12,7 @@ import AboutYearTab from "../../../Component/AboutYearTab/AboutYearTab";
 const RenderMembers = (props) => {
   return props.dept.members.map((member, i) => (
     <Col key={i} lg={6} className="profile">
-      <img src={member.image} className="profile-img" />
+      <img src={member.image} alt={member.name} className="profile-img" />
       <h3 className="user-name">
         <span>{member.name}</span>
       </h3>
@@ -22,9 +22,9 @@ const RenderMembers = (props) => {
         <a href={member.socials[0]} target="blank">
           <FontAwesomeIcon size="sm" icon={faInstagram}></FontAwesomeIcon>
         </a>
-        <a href={member.socials[1]} target="blank">
+        {/* <a href={member.socials[1]} target="blank">
           <FontAwesomeIcon size="sm" icon={faTwitter}></FontAwesomeIcon>
-        </a>
+        </a> */}
       </div>
     </Col>
   ));
