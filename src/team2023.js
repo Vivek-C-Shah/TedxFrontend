@@ -11,7 +11,7 @@ export const team = [
       },
       {
         name: "Vraj Shah",
-        image: "images/MembersImg/Priyansh Tratiya.jpg",
+        image: "images/Committee Reveal Photos/Vraj Shah.JPG",
         role: "Co-Organiser",
         socials: ["https://www.instagram.com/vraj.shah.2121/"],
       },
