@@ -135,7 +135,7 @@ export const team = [
 
       {
         name: "Jayna Kotecha",
-        image: "images/Committee Reveal Photos/Jayna Kotecha.HEIC",
+        image: "images/Committee Reveal Photos/Jayna Kotecha.JPG",
         role: "Hospitality Manager",
         socials: ["https://www.instagram.com/jennyyy.k_7/"],
       },

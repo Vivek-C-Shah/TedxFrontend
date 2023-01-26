@@ -9,6 +9,8 @@ import "swiper/css/navigation";
 import "./HomeCarousel.css";
 import Carousel1 from "../Carousel1.jpg";
 import Carousel2 from "../Carousel2.jpg";
+import Carousel3 from "../Carousel3.jpg";
+import Carousel4 from "../Carousel4.jpg";
 
 // import required modules
 import { Navigation } from "swiper";
@@ -18,14 +20,17 @@ export default function HomeCarousel() {
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <img src={Carousel1} alt="" />
+          <img src={Carousel1} alt="Carousel 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Carousel2} alt="" />
+          <img src={Carousel2} alt="Carousel 2" />
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src={dog} alt="" />
-        </SwiperSlide> */}
+        <SwiperSlide>
+          <img src={Carousel3} alt="Carousel 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Carousel4} alt="Carousel 4" />
+        </SwiperSlide>
       </Swiper>
     </>
   );
