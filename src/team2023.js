@@ -5,7 +5,7 @@ export const team = [
     members: [
       {
         name: "Anish Sil",
-        image: "images/MembersImg/Priyansh Tratiya.jpg",
+        image: "images/Committee Reveal Photos/Anish Sil.jpg",
         role: "Organiser",
         socials: ["https://www.instagram.com/aniiiiisssh/"],
       },
