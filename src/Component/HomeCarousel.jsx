@@ -7,10 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import "./HomeCarousel.css";
-import Carousel1 from "../Carousel1.jpg";
-import Carousel2 from "../Carousel2.jpg";
-import Carousel3 from "../Carousel3.jpg";
-import Carousel4 from "../Carousel4.jpg";
+import Carousel1 from "../Carousel1.webp";
+import Carousel2 from "../Carousel2.webp";
+import Carousel3 from "../Carousel3.webp";
+import Carousel4 from "../Carousel4.webp";
 
 // import required modules
 import { Navigation } from "swiper";
