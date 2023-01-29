@@ -5,13 +5,13 @@ export const team = [
     members: [
       {
         name: "Anish Sil",
-        image: "images/Committee Reveal Photos/Anish Sil.jpg",
+        image: "images/Team 2023/Anish Sil.jpg",
         role: "Organiser",
         socials: ["https://www.instagram.com/aniiiiisssh/"],
       },
       {
         name: "Vraj Shah",
-        image: "images/Committee Reveal Photos/Vraj Shah.JPG",
+        image: "images/Team 2023/Vraj Shah.JPG",
         role: "Co-Organiser",
         socials: ["https://www.instagram.com/vraj.shah.2121/"],
       },
@@ -23,21 +23,21 @@ export const team = [
     members: [
       {
         name: "Nikki Mehta",
-        image: "images/Committee Reveal Photos/Nikki Mehta.jpg",
+        image: "images/Team 2023/Nikki Mehta.jpg",
         role: "Curator",
         socials: ["https://www.instagram.com/nikki.mehta/"],
       },
 
       {
         name: "Parag Shevramani",
-        image: "images/Committee Reveal Photos/Parag Shewaramani.jpg",
+        image: "images/Team 2023/Parag Shewaramani.jpg",
         role: "Curator",
         socials: ["https://www.instagram.com/parag_s._/"],
       },
 
       {
         name: "Vashishth Doshi",
-        image: "images/Committee Reveal Photos/Vashishth Doshi.jpg",
+        image: "images/Team 2023/Vashishth Doshi.jpg",
         role: "Curator",
         socials: ["https://www.instagram.com/vashishth.doshi/"],
       },
@@ -49,21 +49,21 @@ export const team = [
     members: [
       {
         name: "Manav Ukani",
-        image: "images/Committee Reveal Photos/manav ukani.jpg",
+        image: "images/Team 2023/manav ukani.jpg",
         role: "Graphics Designer",
         socials: ["https://www.instagram.com/manavukani/"],
       },
 
       {
         name: "Akshima Sharma",
-        image: "images/Committee Reveal Photos/Akshima Sharma.webp",
+        image: "images/Team 2023/Akshima Sharma.webp",
         role: "Fine Arts",
         socials: ["https://www.instagram.com/akshiimaa/", "#"],
       },
 
       {
         name: "Mansi Patel",
-        image: "images/Committee Reveal Photos/MansiPatel.jpg",
+        image: "images/Team 2023/MansiPatel.jpg",
         role: "Fine Arts",
         socials: ["https://www.instagram.com/mansipls/"],
       },
@@ -75,34 +75,34 @@ export const team = [
     members: [
       {
         name: "Tanmay Desai",
-        image: "images/Committee Reveal Photos/Tanmay Desai.jpg",
+        image: "images/Team 2023/Tanmay Desai.jpg",
         role: "Budget Manager",
         socials: ["https://www.instagram.com/desaitanmay/"],
       },
 
       {
         name: "Aum Davda",
-        image: "images/Committee Reveal Photos/Aum Davda.jpg",
+        image: "images/Team 2023/Aum Davda.jpg",
         role: "Sponsership Manager",
         socials: ["https://www.instagram.com/daddys_little_dissapointement_/"],
       },
 
       {
         name: "Devanshu Mehta",
-        image: "images/Committee Reveal Photos/Devanshu Mehta.jpg",
+        image: "images/Team 2023/Devanshu Mehta.jpg",
         role: "Sponsership Manager",
         socials: ["#"],
       },
 
       {
         name: "Manav Bakori",
-        image: "images/Committee Reveal Photos/manavbakori.jpg",
+        image: "images/Team 2023/manavbakori.jpg",
         role: "Logistics Manager",
         socials: ["https://www.instagram.com/manav.bakori/"],
       },
       {
         name: "Megh Soni",
-        image: "images/Committee Reveal Photos/Megh soni.jpg",
+        image: "images/Team 2023/Megh soni.jpg",
         role: "Logistics Manager",
         socials: ["https://www.instagram.com/sonimegh0918/"],
       },
@@ -114,34 +114,34 @@ export const team = [
     members: [
       {
         name: "Kaushiki Vaidya",
-        image: "images/Committee Reveal Photos/KAUSHIKI VAIDYA.jpeg",
+        image: "images/Team 2023/KAUSHIKI VAIDYA.jpeg",
         role: "Event Manager",
         socials: ["https://www.instagram.com/Kaushikivaidya/"],
       },
 
       {
         name: "Ayush Bhatt",
-        image: "images/Committee Reveal Photos/Ayush Bhatt.jpg",
+        image: "images/Team 2023/Ayush Bhatt.jpg",
         role: "Event Manager",
         socials: ["https://www.instagram.com/_bhatt_ayush_/"],
       },
 
       {
         name: "Shivali Patel",
-        image: "images/Committee Reveal Photos/Shivali Patel.JPG",
+        image: "images/Team 2023/Shivali Patel.JPG",
         role: "Event Manager",
         socials: ["https://www.instagram.com/shivaliiii_20/"],
       },
 
       {
         name: "Jayna Kotecha",
-        image: "images/Committee Reveal Photos/Jayna Kotecha.JPG",
+        image: "images/Team 2023/Jayna Kotecha.JPG",
         role: "Hospitality Manager",
         socials: ["https://www.instagram.com/jennyyy.k_7/"],
       },
       {
         name: "Ritwik Garg",
-        image: "images/Committee Reveal Photos/Ritwik Garg.JPG",
+        image: "images/Team 2023/Ritwik Garg.JPG",
         role: "Hospitality Manager",
         socials: ["https://www.instagram.com/heyitsritwik/", "#"],
       },
@@ -153,27 +153,27 @@ export const team = [
     members: [
       {
         name: "Nikhil Agarwal",
-        image: "images/Committee Reveal Photos/Nikhil Agarwal_.jpg",
+        image: "images/Team 2023/Nikhil Agarwal_.jpg",
         role: "Publicity Manager",
         socials: ["https://www.instagram.com/nikhilag_.02/"],
       },
 
       {
         name: "Rhea Patel",
-        image: "images/Committee Reveal Photos/Rhea Patel_.jpg",
+        image: "images/Team 2023/Rhea Patel_.jpg",
         role: "Publicity Manager",
         socials: ["https://www.instagram.com/rhea.patel910/"],
       },
       {
         name: "Ananya Chaturvedi",
-        image: "images/Committee Reveal Photos/Ananya.jpg",
+        image: "images/Team 2023/Ananya.jpg",
         role: "Publicity Manager",
         socials: ["https://www.instagram.com/a.nayaa/"],
       },
 
       {
         name: "Devrajsinh Jhala",
-        image: "images/Committee Reveal Photos/Devraj Jhala.jpg",
+        image: "images/Team 2023/Devraj Jhala.jpg",
         role: "Website Manager",
         socials: ["#"],
       },
