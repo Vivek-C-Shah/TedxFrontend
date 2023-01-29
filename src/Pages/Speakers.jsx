@@ -11,13 +11,13 @@ import SpeakersTab from "../Component/SpeakersYearTab/SpeakersTab";
 const data = [
   {
     name: "Sanam Kapoor",
-    dict: "images/SpeakersImg/Sanam.jpg",
+    dict: "images/Speakers 2022/Sanam.jpg",
     title: "Founder - La Pinoz Pizza",
     socials: ["#", "#", "#"],
   },
   {
     name: "Ash King",
-    dict: "images/SpeakersImg/Ash.jpg",
+    dict: "images/Speakers 2022/Ash.jpg",
     title: "Singer and Song Writer",
     socials: [
       "https://twitter.com/iamashking?lang=en",
@@ -27,7 +27,7 @@ const data = [
   },
   {
     name: "Berty Ashley",
-    dict: "images/SpeakersImg/Berty.jpg",
+    dict: "images/Speakers 2022/Berty.jpg",
     title: "Molecular Biologist / Quiz Master",
     socials: [
       "https://mobile.twitter.com/bertyashley",
@@ -37,13 +37,13 @@ const data = [
   },
   {
     name: "Sandhya Koushika",
-    dict: "images/SpeakersImg/Sandhya.jpg",
+    dict: "images/Speakers 2022/Sandhya.jpg",
     title: "Neuroscientist",
     socials: ["https://mobile.twitter.com/wormlockholmes", "#", "#"],
   },
   {
     name: "Hunny Bhagchandani",
-    dict: "images/SpeakersImg/Honey.jpg",
+    dict: "images/Speakers 2022/Honey.jpg",
     title: "Founder - Torchit",
     socials: [
       "https://twitter.com/hunny_jb?lang=en",
@@ -53,25 +53,25 @@ const data = [
   },
   {
     name: "Navneet Gill",
-    dict: "images/SpeakersImg/Navneet.jpg",
+    dict: "images/Speakers 2022/Navneet.jpg",
     title: "Founder - Nini's Kitchen",
     socials: ["#", "#", "#"],
   },
   {
     name: "Viral Desai",
-    dict: "images/SpeakersImg/Viral.jpg",
+    dict: "images/Speakers 2022/Viral.jpg",
     title: "Environmentalist",
     socials: ["#", "#", "#"],
   },
   {
     name: "Edward Sonnenblick",
-    dict: "images/SpeakersImg/Edward.jpg",
+    dict: "images/Speakers 2022/Edward.jpg",
     title: "Actor, Artist & Comedian",
     socials: ["#", "https://www.instagram.com/edwardsonnenblick/?hl=en", "#"],
   },
   {
     name: "Dr. Pooja Thomas",
-    dict: "images/SpeakersImg/Pooja.png",
+    dict: "images/Speakers 2022/Pooja.png",
     title: "Professor - MICA",
     socials: [
       "https://www.mica.ac.in/pooja-thomas",

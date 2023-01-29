@@ -6,7 +6,6 @@ import {
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Timer.css";
-import dog from "../dog.jpg";
 import HomeCarousel from "./HomeCarousel";
 
 const Timer = () => {
