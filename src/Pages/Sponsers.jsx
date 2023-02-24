@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
+import React from "react";
 import Footer from "../Component/Footer";
 import Header from "../Component/Header";
 import ScrollButton from "../Component/ScrollButton";

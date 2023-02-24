@@ -15,6 +15,7 @@ import Team2023 from "./Pages/2023/Team/Team2023";
 
 import Teams from "./Pages/Teams";
 import Speakers2023 from "./Pages/2023/Speakers/Speakers2023";
+import Payment from "./Pages/2023/Payment";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <div id="particles-js">
         <BrowserRouter>
           <Routes>
+            <Route exact path="/payment" element={<Payment />} />
             <Route exact path="/" element={<Home2022 />} />
             <Route exact path="/2022" element={<Home />} />
             <Route

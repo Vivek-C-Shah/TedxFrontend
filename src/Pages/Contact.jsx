@@ -95,6 +95,9 @@ const Contact = () => {
                       <br></br>
                       <span className="ll">Vraj Shah</span> :{" "}
                       <a href="tel:+917016077032">9662261113</a>{" "}
+                      <br></br>
+                      <span className="ll">Tanmay Desai</span> :{" "}
+                      <a href="tel:+917016077032">7621805242</a>{" "}
                     </address>
                   </div>
                 </Col>

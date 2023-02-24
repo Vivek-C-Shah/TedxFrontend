@@ -6,6 +6,7 @@ import {
   faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Timer.css";
+import { Link } from "react-router-dom";
 
 const Timer = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -30,7 +31,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const date = new Date("April 10, 2022 9:00:00").getTime();
+    const date = new Date("March 26, 2023 9:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -66,7 +67,7 @@ const Timer = () => {
       <section className="timer">
         <div className="countdown-desc-box">
           <h2 className="countdown-h2">
-            CHARTING THE UNCHAR<span className="smalli">TED 2023</span>
+          STORIES BEHIND<span className="smalli"> STORIES</span>
           </h2>
         </div>
         <p className="countdown-desc">Let the countdown begin!!</p>
@@ -115,13 +116,11 @@ const Timer = () => {
             PDEU, Gandhinagar
           </span>
         </div>
-        <a
-          rel="noopener noreferrer"
-          href="https://forms.gle/DBaKhzTS3NPXPyrH7"
-          target="_blank"
+        <Link
+          to={"/payment"}
         >
           <button className="BOOKBUTTON">Book Now</button>
-        </a>
+        </Link>
       </section>
     </section>
   );

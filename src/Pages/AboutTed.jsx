@@ -59,7 +59,7 @@ const AboutTed = () => {
         <hr></hr>
         <div className="about-container">
           <p className="head">ABOUT TEDx</p>
-          <img src="images/im.jpg" alt="Image not Found :(" className="img" />
+          <img src="images/im.jpg" alt="not Found :(" className="img" />
           <p className="tag">x = Independently Organized Event​​</p>
           <p className="about-para">
             In the spirit of ideas worth spreading, TEDx is a program of local,
@@ -77,7 +77,7 @@ const AboutTed = () => {
           <p className="head">ABOUT TEDxPDEU</p>
           <img
             src="images/TedxPDEU.jpg"
-            alt="Image not Found :("
+            alt="not Found :("
             className="img"
           />
           {/* <p className="tag">x = Independently Organized Event​​</p> */}

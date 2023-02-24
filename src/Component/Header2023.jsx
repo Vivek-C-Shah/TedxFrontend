@@ -45,14 +45,13 @@ function Header2023() {
 
         <div className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a
-              href="https://forms.gle/DBaKhzTS3NPXPyrH7"
-              target="_blank"
+            <Link
+              to={"/payment"}
               className="nav-links-mobile"
               onClick={closeMobileMenu}
             >
               Book Now
-            </a>
+            </Link>
           </li>
           <Button className="butt" />
           <li className="nav-item">
