@@ -24,7 +24,9 @@ const Payment = () => {
             <p>₹700 - Includes Lunch</p>
             <p>₹900 - Includes Lunch and Goodies Bag</p>
             <p className='payment__warning'>Only 50 seats available for ₹900 ticket</p>
+            <div className='payment__image__container'>
             <img className='payment__image' src={qrcode} alt="QR Code" />
+            </div>
 
             <p className='payment__warning'>If you have already paid, then please fill the form</p>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-uEvlmt7KKnoy4ybou9wTDNh8_yj9qis3PpZD43VsptSSNg/viewform" target="_blank" rel="noopener noreferrer">

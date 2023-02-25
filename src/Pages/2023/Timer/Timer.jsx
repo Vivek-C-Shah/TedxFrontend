@@ -119,7 +119,7 @@ const Timer = () => {
         <Link
           to={"/payment"}
         >
-          <button className="BOOKBUTTON">Book Now</button>
+          <button className='payment__button'>Book Now</button>
         </Link>
       </section>
     </section>

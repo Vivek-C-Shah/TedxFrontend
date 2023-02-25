@@ -2,6 +2,7 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .payment__information{
@@ -14,6 +15,7 @@
 .payment__image{
     width: 400px;
     height: 400px;
+    object-fit: contain;
 }
 
 .payment__heading{
@@ -42,6 +44,9 @@
       color: red;
 }
 
+.payment__image__container{
+    padding: 0 20px;
+}
 .payment__button{
     text-align: center;
     padding: 10px 20px;
@@ -49,6 +54,8 @@
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    outline: none;
+    border: none;
 }
 
 .payment__warning{
@@ -56,11 +63,19 @@
     font-weight: bold;
     color: red;
     font-size: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
     .payment__heading{
         font-size: 45px;
         color: white;
+    }
+    .payment__container{
+        padding: 0 10px;
+    }
+    .payment__image{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
