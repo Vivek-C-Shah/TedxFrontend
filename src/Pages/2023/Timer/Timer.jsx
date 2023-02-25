@@ -99,7 +99,7 @@ const Timer = () => {
               style={{ color: "red" }}
               icon={faCalendar}
             ></FontAwesomeIcon>{" "}
-            TBA
+            26th March 2023
           </span>
           <span className="detail">
             <FontAwesomeIcon
