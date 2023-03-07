@@ -22,13 +22,13 @@ const data = [
   },
   {
     name: "Kartikeya Sarabhai",
-    dict: "images/Speakers 2023/Kartikeya_Vikram_Sarabhai.webp",
+    dict: "images/Speakers 2023/Kartikeya.jpg",
     title: "Environmentalist",
     socials: ["#", "#", "#"],
   },
   {
     name: "Kuldip Singh Kaler",
-    dict: "images/Speakers 2023/Kuldip-Singh.webp",
+    dict: "images/Speakers 2023/Kuldip.jpg",
     title: "Author and Influencer",
     socials: ["#", "#", "#"],
   },
