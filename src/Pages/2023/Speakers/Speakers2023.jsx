@@ -28,7 +28,7 @@ const data = [
   },
   {
     name: "Kuldip Singh Kaler",
-    dict: "images/Speakers 2023/Kuldip.jpg",
+    dict: "images/Speakers 2023/Kuldip.png",
     title: "Author and Influencer",
     socials: ["#", "#", "#"],
   },
