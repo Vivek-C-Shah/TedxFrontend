@@ -32,6 +32,18 @@ const data = [
     title: "Environmentalist",
     socials: ["#", "#", "#"],
   },
+  {
+    name: "Kshitij Gupta",
+    dict: "images/Speakers 2023/Kshitij.jpg",
+    title: "Nft artist | Founder - PolygonInu",
+    socials: ["#", "#", "#"],
+  },
+  {
+    name: "Chetan Tambe",
+    dict: "images/Speakers 2023/Chetan.jpg",
+    title: "Brand Ambassador | Fit India",
+    socials: ["#", "#", "#"],
+  },
 
   
 ];
