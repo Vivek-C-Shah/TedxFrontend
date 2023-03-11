@@ -11,7 +11,7 @@ const data = [
   {
     name: "Dr. Paul Salins",
     dict: "images/Speakers 2023/Dr.-Paul.webp",
-    title: "Surgeon",
+    title: "Medical Director - MSMC",
     socials: ["#", "#", "#"],
   },
   {
@@ -21,17 +21,18 @@ const data = [
     socials: ["#", "#", "#"],
   },
   {
-    name: "Kartikeya Sarabhai",
-    dict: "images/Speakers 2023/Kartikeya.jpg",
-    title: "Environmentalist",
-    socials: ["#", "#", "#"],
-  },
-  {
     name: "Kuldip Singh Kaler",
     dict: "images/Speakers 2023/Kuldip.png",
     title: "Author and Influencer",
     socials: ["#", "#", "#"],
   },
+  {
+    name: "Kartikeya Sarabhai",
+    dict: "images/Speakers 2023/Kartikeya.jpg",
+    title: "Environmentalist",
+    socials: ["#", "#", "#"],
+  },
+
   
 ];
 
