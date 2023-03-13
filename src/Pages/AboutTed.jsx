@@ -1,7 +1,7 @@
 import "./About_ted.css";
 import ScrollButton from "../Component/ScrollButton";
-import Header from "../Component/Header";
 import Footer from "../Component/Footer";
+import Header2023 from "../Component/Header2023";
 
 const AboutTed = () => {
   const scrollToTop = () => {
@@ -14,7 +14,7 @@ const AboutTed = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         <div className="about-container">
           <h1 className="head">ABOUT TED</h1>
           <img src="images/TED.jpg" alt="" className="img" />

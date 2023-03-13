@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../Component/Footer";
-import Header from "../Component/Header";
 import ScrollButton from "../Component/ScrollButton";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./speakers.css";
 import SpeakersTab from "../Component/SpeakersYearTab/SpeakersTab";
+import Header2023 from "../Component/Header2023";
 
 const data = [
   {
@@ -92,7 +92,7 @@ const Speakers = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         {/* <YearTab /> */}
         <SpeakersTab />
         <h1>OUR SPEAKERS</h1>
@@ -101,7 +101,7 @@ const Speakers = () => {
             {data.map((spk) => (
               <Col lg={4} sm={5} className="box">
                 <div className="subcontainer">
-                  <img className="speaker-img" alt="dog" src={spk.dict} />
+                  <img className="speaker-img" alt={spk.name} src={spk.dict} />
                   <h2 className="speaker-name">{spk.name}</h2>
                   <h3 className="speaker-title">{spk.title}</h3>
                   <div className="socials">

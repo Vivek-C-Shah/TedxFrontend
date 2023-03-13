@@ -5,9 +5,9 @@ import ScrollButton from "../Component/ScrollButton";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 import AboutYearTab from "../Component/AboutYearTab/AboutYearTab";
+import Header2023 from "../Component/Header2023";
 
 const RenderMembers = (props) => {
   return props.dept.members.map((member, i) => (
@@ -55,7 +55,7 @@ const Teams = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         <AboutYearTab />
         <div>
           <h1 className="heading">Meet Our Team</h1>

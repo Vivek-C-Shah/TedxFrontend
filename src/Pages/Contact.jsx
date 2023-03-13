@@ -11,8 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./Contact.css";
 import ScrollButton from "../Component/ScrollButton";
-import Header from "../Component/Header";
 import Footer from "../Component/Footer";
+import Header2023 from "../Component/Header2023";
 
 const Contact = () => {
   const scrollToTop = () => {
@@ -47,7 +47,7 @@ const Contact = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         <Container className="contact-us-container">
           <Row>
             <Col md={6} className="d-flex align-items-center">

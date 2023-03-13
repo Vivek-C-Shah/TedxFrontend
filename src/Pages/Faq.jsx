@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Footer from "../Component/Footer";
-import Header from "../Component/Header";
+import Header2023 from "../Component/Header2023";
 import ScrollButton from "../Component/ScrollButton";
 import "./faq.css";
 const FAQ = () => {
@@ -23,7 +23,7 @@ const FAQ = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         <section className="sec">
           <h1 class="faq-title">FAQ's</h1>
           <h5 class="intro">

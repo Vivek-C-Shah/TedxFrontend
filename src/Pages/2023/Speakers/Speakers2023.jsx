@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../../../Component/Footer";
-import Header from "../../../Component/Header";
 import ScrollButton from "../../../Component/ScrollButton";
 import SpeakersTab from "../../../Component/SpeakersYearTab/SpeakersTab";
 import "./Speakers2023.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Header2023 from "../../../Component/Header2023";
 
 
 const data = [
@@ -22,7 +22,7 @@ const data = [
   },
   {
     name: "Kuldip Singh Kaler",
-    dict: "images/Speakers 2023/Kuldip.png",
+    dict: "images/Speakers 2023/Kuldip.jpg",
     title: "Author and Influencer",
     socials: ["#", "#", "#"],
   },
@@ -40,7 +40,7 @@ const data = [
   },
   {
     name: "Chetan Tambe",
-    dict: "images/Speakers 2023/Chetan.jpg",
+    dict: "images/Speakers 2023/Chetan.png",
     title: "Brand Ambassador | Fit India",
     socials: ["#", "#", "#"],
   },
@@ -59,7 +59,7 @@ const Speakers2023 = () => {
     <>
       {scrollToTop()}
       <div id="particles-js">
-        <Header />
+        <Header2023 />
         {/* <YearTab /> */}
         <SpeakersTab />
         <h1>OUR SPEAKERS</h1>
@@ -68,7 +68,7 @@ const Speakers2023 = () => {
             {data.map((spk) => (
               <Col lg={4} sm={5} className="box">
                 <div className="subcontainer">
-                  <img className="speaker-img" alt="dog" src={spk.dict} />
+                  <img className="speaker-img" alt={spk.name} src={spk.dict} />
                   <h2 className="speaker-name">{spk.name}</h2>
                   <h3 className="speaker-title">{spk.title}</h3>
                   {/* <div className="socials">
