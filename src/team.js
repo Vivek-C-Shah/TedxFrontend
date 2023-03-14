@@ -102,7 +102,7 @@ export const team = [
       {
         name: "Harshita Kapri",
         image: "images/Team 2022/Harshita Kapri.webp",
-        role: "Sponsership Manager",
+        role: "Sponsorship Manager",
         socials: ["https://www.instagram.com/kapri_harshita/", "#"],
       },
 
