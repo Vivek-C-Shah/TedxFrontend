@@ -41,7 +41,7 @@ const data = [
   {
     name: "Chetan Tambe",
     dict: "images/Speakers 2023/Chetan.png",
-    title: "Brand Ambassador | Fit India",
+    title: "Sportsperson | Fit India Ambassador",
     socials: ["#", "#", "#"],
   },
 
