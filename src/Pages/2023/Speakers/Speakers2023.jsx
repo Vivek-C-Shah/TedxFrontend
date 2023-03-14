@@ -28,7 +28,7 @@ const data = [
   },
   {
     name: "Kartikeya Sarabhai",
-    dict: "images/Speakers 2023/Kartikeya.jpg",
+    dict: "images/Speakers 2023/Kartikeya.png",
     title: "Environmentalist",
     socials: ["#", "#", "#"],
   },
