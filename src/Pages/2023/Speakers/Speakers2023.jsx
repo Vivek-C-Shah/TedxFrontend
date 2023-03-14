@@ -16,13 +16,13 @@ const data = [
   },
   {
     name: "Sudeep Chawla",
-    dict: "images/Speakers 2023/Sudeep.jpg",
+    dict: "images/Speakers 2023/Sudeep.png",
     title: "VP (Marketing) - Pidilite",
     socials: ["#", "#", "#"],
   },
   {
     name: "Kuldip Singh Kaler",
-    dict: "images/Speakers 2023/Kuldip.jpg",
+    dict: "images/Speakers 2023/Chetan_22.png",
     title: "Author and Influencer",
     socials: ["#", "#", "#"],
   },
@@ -34,7 +34,7 @@ const data = [
   },
   {
     name: "Kshitij Gupta",
-    dict: "images/Speakers 2023/Kshitij.jpg",
+    dict: "images/Speakers 2023/Kshitij_2.png",
     title: "Nft artist | Founder - PolygonInu",
     socials: ["#", "#", "#"],
   },
