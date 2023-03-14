@@ -6,7 +6,7 @@ export const team = [
       {
         name: "Priyansh Tratiya",
         image: "images/Team 2022/Priyansh Tratiya.webp",
-        role: "Organiser",
+        role: "Organizer",
         socials: [
           "https://www.instagram.com/priyansh.tratiya/",
           "https://twitter.com/TratiyaPriyansh",
@@ -16,7 +16,7 @@ export const team = [
       {
         name: "Sachin Gupta",
         image: "images/Team 2022/Sachin Gupta.webp",
-        role: "Co-Organiser",
+        role: "Co-Organizer",
         socials: ["https://www.instagram.com/its.sachinnnnnn", "#"],
       },
     ],
@@ -109,7 +109,7 @@ export const team = [
       {
         name: "Yogi Makadiya",
         image: "images/Team 2022/YogiMakadiya.webp",
-        role: "Sponsership Manager",
+        role: "Sponsorship Manager",
         socials: [
           "https://www.instagram.com/yogi_my03/",
           "https://twitter.com/YogiMakadiya",
