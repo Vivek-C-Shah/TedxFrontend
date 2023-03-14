@@ -35,7 +35,7 @@ const data = [
   {
     name: "Kshitij Gupta",
     dict: "images/Speakers 2023/Kshitij_2.png",
-    title: "Nft artist | Founder - PolygonInu",
+    title: "NFT artist | Founder - PolygonInu",
     socials: ["#", "#", "#"],
   },
   {
