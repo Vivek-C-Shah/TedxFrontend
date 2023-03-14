@@ -23,7 +23,7 @@ export const team = [
     members: [
       {
         name: "Nikki Mehta",
-        image: "images/Team 2023/Nikki Mehta.jpg",
+        image: "images/Team 2023/Nikki Mehta.png",
         role: "Curator",
         socials: ["https://www.instagram.com/nikki.mehta/"],
       },
@@ -89,7 +89,7 @@ export const team = [
 
       {
         name: "Devanshu Mehta",
-        image: "images/Team 2023/Devanshu Mehta.jpg",
+        image: "images/Team 2023/Devanshu Mehta.png",
         role: "Sponsership Manager",
         socials: ["#"],
       },
