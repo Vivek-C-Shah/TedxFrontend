@@ -6,13 +6,13 @@ export const team = [
       {
         name: "Anish Sil",
         image: "images/Team 2023/Anish Sil.jpg",
-        role: "Organiser",
+        role: "Organizer",
         socials: ["https://www.instagram.com/aniiiiisssh/"],
       },
       {
         name: "Vraj Shah",
         image: "images/Team 2023/Vraj Shah.JPG",
-        role: "Co-Organiser",
+        role: "Co-Organizer",
         socials: ["https://www.instagram.com/vraj.shah.2121/"],
       },
     ],
@@ -50,7 +50,7 @@ export const team = [
       {
         name: "Manav Ukani",
         image: "images/Team 2023/manav ukani.jpg",
-        role: "Graphics Designer",
+        role: "Graphic Designer",
         socials: ["https://www.instagram.com/manavukani/"],
       },
 
@@ -83,14 +83,14 @@ export const team = [
       {
         name: "Aum Davda",
         image: "images/Team 2023/Aum Davda.jpg",
-        role: "Sponsership Manager",
+        role: "Sponsorship Manager",
         socials: ["https://www.instagram.com/daddys_little_dissapointement_/"],
       },
 
       {
         name: "Devanshu Mehta",
         image: "images/Team 2023/Devanshu Mehta.png",
-        role: "Sponsership Manager",
+        role: "Sponsorship Manager",
         socials: ["#"],
       },
 
