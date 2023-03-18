@@ -1,102 +1,118 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-
-.container {
-  color: white;
-}
-
-.heading {
-  font-size: 4.5rem;
-  color: red;
-  font-weight: bold;
-  text-align: center;
-  margin: 3rem;
-}
-
-.title {
-  color: rgb(255, 0, 0);
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.profiles {
+.sponsors__row {
   display: flex;
-  justify-content: space-around;
-  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-.profile {
-
-  padding-bottom: 3rem;
-  text-align: center;
+.title{
+  margin-top: 20px;
+}
+.sponsor__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.profile .profile-img {
-  height: 230px;
-  width: 230px;
+.sponsor__image{
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   transition: 400ms;
-
 }
 
-.user-name span {
+.sponsor__name{
+  text-align: center;
+}
+
+.sponsor__name span {
   color: red;
-  margin-top: 30px;
-  font-size: 55px;
-  max-width: 800px;
-}
-.user-name {
-  color: whitesmoke;
   margin-top: 30px;
   font-size: 35px;
+
+}
+
+.sponsor__description {
   text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.user-role {
-  text-align: center;
-}
-
-.profile h5 {
-  font-size: 18px;
-  font-weight: 100;
-  letter-spacing: 3px;
-  color: #ccc;
-}
-
-.profile p {
-  font-size: 16px;
-  margin-top: 20px;
-  text-align: justify;
-}
-
-.member-social-media {
-  text-align: center;
-}
-
-.member-social-media a {
-  font-size: 24px;
-  width: 30px;
+.sponsor__link{
   color: red;
-  margin: 0 8px;
-  line-height: 42px;
-  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
 }
-
-.member-social-media a:hover {
+.sponsor__link:hover{
+  color: red;
+}
+.payment__button{
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: red;
   color: white;
-  transition: 0.1s;
+  border-radius: 5px;
+  font-weight: bold;
+  outline: none;
+  border: none;
 }
 
-@media screen and (max-width: 630px) {
-  .heading {
-    font-size: 3rem;
+@media screen and (min-width: 360px) and (max-width: 560px) {
+  .sponsor__name span{
+    font-size: 28px;
   }
-  .title {
-    font-size: 1.9rem;
+  .sponsor__description {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
   }
+  .payment__button{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 16px;
+  }
+}
 
-  .profile {
-    padding-bottom: 2rem;
-    /* text-align: center; */
+@media screen and (max-width: 359px) {
+  .payment__button{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 12px;
+  }
+  .sponsor__name span{
+    font-size: 20px;
+  }
+  .sponsor__description {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 14px;
   }
 }
