@@ -81,6 +81,7 @@ h1 {
   transition: all 0.8s;
 }
 
+
 .subcontainer:hover .speaker-img {
   transform: scale(0.9);
   transition: all 0.8s;

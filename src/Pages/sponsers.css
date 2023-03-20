@@ -67,6 +67,29 @@
   border: none;
 }
 
+.sponsor__contact__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sponsor__contact__text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sponsor__contact{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  font-size: 18px;
+}
+.sponsor__contact:hover{
+  color: red;
+}
+
 @media screen and (min-width: 360px) and (max-width: 560px) {
   .sponsor__name span{
     font-size: 28px;

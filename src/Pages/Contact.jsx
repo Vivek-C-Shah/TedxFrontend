@@ -91,13 +91,13 @@ const Contact = () => {
                     ></FontAwesomeIcon>
                     <address>
                       <span className="ll">Anish Sil</span> :{" "}
-                      <a href="tel:+919408990628">7048729570</a>
+                      <a href="tel:+917048729570">7048729570</a>
                       <br></br>
                       <span className="ll">Vraj Shah</span> :{" "}
-                      <a href="tel:+917016077032">9662261113</a>{" "}
+                      <a href="tel:+919662261113">9662261113</a>{" "}
                       <br></br>
                       <span className="ll">Tanmay Desai</span> :{" "}
-                      <a href="tel:+917016077032">7621805242</a>{" "}
+                      <a href="tel:+917621805242">7621805242</a>{" "}
                     </address>
                   </div>
                 </Col>

@@ -19,6 +19,15 @@ const RenderMembers = (props) => {
           <h3 className="sponsor__name">
             <span>{member.name}</span>
           </h3>
+          {/* <a className="sponsor__contact" href={`tel:+91${member.contactNumber}`}>
+            <span>Contact: </span>{member.contactNumber}
+          </a> */}
+          <div className="sponsor__contact__container">
+            <span className="sponsor__contact__text">Contact: </span>
+            <a className="sponsor__contact" href={`tel:+91${member.contactNumber}`}>
+            {member.contactNumber}
+          </a>
+          </div>
           <h5 className="sponsor__description" id="description">
             
               {member.description}
