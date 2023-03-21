@@ -16,6 +16,7 @@
     width: 400px;
     height: 400px;
     object-fit: contain;
+    margin-top: 20px;
 }
 
 .payment__heading{
@@ -59,7 +60,7 @@
 }
 
 .payment__warning{
-    margin: 20px 0;
+    margin-top: 20px;
     font-weight: bold;
     color: red;
     font-size: 20px;

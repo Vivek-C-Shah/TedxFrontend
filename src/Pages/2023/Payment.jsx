@@ -21,8 +21,8 @@ const Payment = () => {
           <div className="payment__container">
             <div className='payment__information'>
             <h1 className='payment__heading'>A <span className='payment__color'>magnificient</span> event awaits <span className='payment__color'>you</span></h1>
-            <p><b>Early Bird Discount!!</b></p>
-            <p>₹800 - Includes Lunch and Goodies Bag along with <b>Certificate of Participation</b></p>
+            <p>₹900 - Includes Lunch and Goodies Bag along with <b>Certificate of Participation</b></p>
+            <p>Conveniently Pay using the QR Code below ↓</p>
             <div className='payment__image__container'>
             <img className='payment__image' src={qrcode} alt="QR Code" />
             </div>
