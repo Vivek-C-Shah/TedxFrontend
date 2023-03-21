@@ -44,30 +44,30 @@ const data = [
     title: "Sportsperson | Fit India Ambassador",
     socials: ["#", "#", "#"],
   },
-  // {
-  //   name: "Bhavya Gandhi",
-  //   dict: "images/Speakers 2023/Bhavya.png",
-  //   title: "Sportsperson | Fit India Ambassador",
-  //   socials: ["#", "#", "#"],
-  // },
-  // {
-  //   name: "Jigna Vyas",
-  //   dict: "images/Speakers 2023/Jigna Vyas.png",
-  //   title: "Sportsperson | Fit India Ambassador",
-  //   socials: ["#", "#", "#"],
-  // },
-  // {
-  //   name: "Mira Edra",
-  //   dict: "images/Speakers 2023/Mira Edra.png",
-  //   title: "Sportsperson | Fit India Ambassador",
-  //   socials: ["#", "#", "#"],
-  // },
-  // {
-  //   name: "Priyanka Agarwal Mehta",
-  //   dict: "images/Speakers 2023/Priyanka Agarwal Mehta.png",
-  //   title: "Sportsperson | Fit India Ambassador",
-  //   socials: ["#", "#", "#"],
-  // },
+  {
+    name: "Bhavya Gandhi",
+    dict: "images/Speakers 2023/Bhavya.png",
+    title: "Actor",
+    socials: ["#", "#", "#"],
+  },
+  {
+    name: "Jigna Vyas",
+    dict: "images/Speakers 2023/Jigna Vyas.png",
+    title: "Theatre Artist",
+    socials: ["#", "#", "#"],
+  },
+  {
+    name: "Mira Edra",
+    dict: "images/Speakers 2023/Mira Edra.png",
+    title: "F4 Racer",
+    socials: ["#", "#", "#"],
+  },
+  {
+    name: "Priyanka Agarwal Mehta",
+    dict: "images/Speakers 2023/Priyanka Agarwal Mehta.png",
+    title: "Author, Founder of 'Sam' and 'Mi'",
+    socials: ["#", "#", "#"],
+  },
 
   
 ];

@@ -103,6 +103,12 @@ h1 {
   }
 }
 
+.gy-5{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   /*Small Screen*/
 

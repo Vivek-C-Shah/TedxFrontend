@@ -37,7 +37,7 @@ export const sponsors = [
         name: "Sanchal Fashion",
         image: "images/Sponsors 2023/merch_sponsor.png",
         description:
-          "Voila! TEDxPDEU is here to solve all your merch problems. Get the best quality t-shirts for your event, big or small, at unbeatable prices with our Merchandise Partner SANCHAL FASHION. We give life time print guranteed along with durable, comfortable and affordable, we're your one-stop shop for event t-shirts. Contact us today to place your order!",
+          "Voila! TEDxPDEU is here to solve all your merch problems. Get the best quality t-shirts for your event, big or small, at unbeatable prices with our Merchandise Partner SANCHAL FASHION. We give life time print guranteed along with durability, comfort and at affordable prices. We're your one-stop shop for event t-shirts. Contact us today to place your order!",
         link: "https://instagram.com/sanchal_fashion?igshid=YmMyMTA2M2Y=",
         linkText: "Choose your fashion now →",
         contactNumber: "7984187592",
