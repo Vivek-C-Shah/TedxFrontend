@@ -9,6 +9,12 @@ import Header2023 from "../../../Component/Header2023";
 
 const data = [
   {
+    name: "Bhavya Gandhi",
+    dict: "images/Speakers 2023/Bhavya.png",
+    title: "Actor",
+    socials: ["#", "#", "#"],
+  },
+  {
     name: "Dr. Paul Salins",
     dict: "images/Speakers 2023/Dr.-Paul.webp",
     title: "Medical Director - MSMC",
@@ -45,19 +51,13 @@ const data = [
     socials: ["#", "#", "#"],
   },
   {
-    name: "Bhavya Gandhi",
-    dict: "images/Speakers 2023/Bhavya.png",
-    title: "Actor",
-    socials: ["#", "#", "#"],
-  },
-  {
     name: "Jigna Vyas",
     dict: "images/Speakers 2023/Jigna Vyas.png",
     title: "Theatre Artist",
     socials: ["#", "#", "#"],
   },
   {
-    name: "Mira Edra",
+    name: "Mira Erda",
     dict: "images/Speakers 2023/Mira Edra.png",
     title: "F4 Racer",
     socials: ["#", "#", "#"],
@@ -69,7 +69,7 @@ const data = [
     socials: ["#", "#", "#"],
   },
 
-  
+
 ];
 
 const Speakers2023 = () => {
