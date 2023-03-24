@@ -44,4 +44,19 @@ export const sponsors = [
       },
     ],
   },
+  {
+    id: 4,
+    department: "Food Partner",
+    members: [
+      {
+        name: "La Pinoz Pizza",
+        image: "images/Sponsors 2023/pizza_sponsor_la.png",
+        description:
+          "Craving a delicious pizza? We've got you covered! \nTEDxPDEU 2023, now has an official food partner; La Pinoz Pizza. Who just launched an amazing limited-time offer that you can't miss. Get a whopping 25,000 rupees worth of benefits for just 699 with 65 different coupons ! \n Hurry, grab this deal now and satisfy your pizza cravings like never before!!",
+        link: "https://lapinozpizza.in/",
+        linkText: "Get yourself a booklet now →",
+        contactNumber: "9824522322",
+      },
+    ],
+  },
 ];
