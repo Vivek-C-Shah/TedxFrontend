@@ -6,7 +6,6 @@ import "./Speakers2023.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Header2023 from "../../../Component/Header2023";
 
-
 const data = [
   {
     name: "Bhavya Gandhi",
@@ -51,7 +50,7 @@ const data = [
     socials: ["#", "#", "#"],
   },
   {
-    name: "Jigna Vyas",
+    name: "Jignya Vyas",
     dict: "images/Speakers 2023/Jigna Vyas.png",
     title: "Theatre Artist",
     socials: ["#", "#", "#"],
@@ -68,8 +67,6 @@ const data = [
     title: "Author, Founder of 'Sam' and 'Mi'",
     socials: ["#", "#", "#"],
   },
-
-
 ];
 
 const Speakers2023 = () => {
