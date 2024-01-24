@@ -1,4 +1,4 @@
-![Logo](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/Admin/Desktop/TedxFrontend/public/images/logo.png?version%3D1674933633968)
+![Logo](https://www.tedxpdeu.com/images/logo.png)
 
 # TEDxPDEU Website
 
