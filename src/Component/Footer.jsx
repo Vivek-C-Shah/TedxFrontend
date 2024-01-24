@@ -41,9 +41,9 @@ const Footer = () => {
           <Link to="/speakers">
             <div>SPEAKERS</div>
           </Link>
-          <Link to="/sponsers">
+          {/* <Link to="/sponsers">
             <div>SPONSORS</div>
-          </Link>
+          </Link> */}
           <Link to="/faq">
             <div>FAQ's</div>
           </Link>

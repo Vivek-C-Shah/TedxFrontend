@@ -84,8 +84,11 @@ const AboutTed = () => {
           <p className="about-para">
             TEDxPDEU is an independently organised community facing TEDX event.
             This is the third iteration of the event, the first two being in
-            2018 and 2019. Our theme for TEDxPDEU 2022 is
-            <span className="imp"> 'Charting the Uncharted'.</span>
+            2018 and 2019. Our theme for TEDxPDEU 2022 was
+            <span className="imp"> 'Charting the Uncharted'. </span> 
+            Theme for TEDxPDEU 2023 was 
+            <span className="imp"> 'Stories behind Stories'.</span>
+
           </p>
           <p className="about-para">
             This theme is important right now more than ever seeing as the

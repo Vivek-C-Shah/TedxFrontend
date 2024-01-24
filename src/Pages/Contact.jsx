@@ -90,14 +90,14 @@ const Contact = () => {
                       icon={faPhone}
                     ></FontAwesomeIcon>
                     <address>
-                      <span className="ll">Anish Sil</span> :{" "}
-                      <a href="tel:+917048729570">7048729570</a>
+                      <span className="ll">Ayush Chaudhary</span> :{" "}
+                      <a href="tel:+918511733619">8511733619</a>
                       <br></br>
-                      <span className="ll">Vraj Shah</span> :{" "}
-                      <a href="tel:+919662261113">9662261113</a>{" "}
+                      <span className="ll">Somya Mehta</span> :{" "}
+                      <a href="tel:+919712012006">9712012006</a>{" "}
                       <br></br>
-                      <span className="ll">Tanmay Desai</span> :{" "}
-                      <a href="tel:+917621805242">7621805242</a>{" "}
+                      <span className="ll">Divy Patel</span> :{" "}
+                      <a href="tel:+918160658111">8160658111</a>{" "}
                     </address>
                   </div>
                 </Col>

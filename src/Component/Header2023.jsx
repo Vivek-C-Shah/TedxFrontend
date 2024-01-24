@@ -89,7 +89,7 @@ function Header2023() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/sponsers"
               className="nav-links"
@@ -97,7 +97,7 @@ function Header2023() {
             >
               Sponsors
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/faq" className="nav-links" onClick={closeMobileMenu}>
               FAQ's

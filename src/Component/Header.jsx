@@ -78,7 +78,7 @@ function Header() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/sponsers"
               className="nav-links"
@@ -86,7 +86,7 @@ function Header() {
             >
               Sponsors
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link to="/faq" className="nav-links" onClick={closeMobileMenu}>
               FAQ's
